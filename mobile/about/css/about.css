@@ -1,0 +1,185 @@
+main{
+    width:100%;
+    min-height:1200px;
+}
+section#about_visual_port{
+    width:100%;
+    height:200px;
+    background:url('/kizuna_rwd/mobile/about/images/m_about_banner_port.png')no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+    margin-bottom:100px;
+    display:none;
+}
+section#about_visual_land{
+    width:100%;
+    height:200px;
+    background:url('/kizuna_rwd/mobile/about/images/m_about_banner.png')no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+    margin-bottom:100px;
+    display:none;
+}
+div.s_visual_textbox{
+    width:76.92%;
+    height:120px;
+    background:#fefefe;
+    border-radius:18px 2px;
+    position:absolute;
+    left:11.53%;
+    top:100px;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+p.s_visual_title{
+    width:100%;
+    padding-left:20px;
+    padding-top:20px;
+    box-sizing:border-box;
+    font:bold 12px 'Lusitana';
+}
+p.s_visual_text{
+    width:100%;
+    padding-left:20px;
+    padding-top:10px;
+    box-sizing:border-box;
+    font:bold 24px 'Lusitana';
+}
+span.text_point{
+    color:#d70990;
+}
+/* 비주얼단 영역 끝 */
+/* 컨텐츠 시작 */
+/* 소개영역 */
+div#m_us_wrap{
+    width:100%;
+    min-height:700px;
+    padding:0px 16px;
+    box-sizing:border-box;
+    margin-bottom:50px;
+}
+ul.us_info{
+    width:100%;
+    height:auto;
+    margin-bottom:80px;
+}
+ul.us_info>li{
+    width:100%;
+}
+ul.us_info>li>img{
+    width:100%;
+    height:150px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+p.us_title{
+    width:100%;
+    height:auto;
+    text-align:center;
+    font:bold 18px 'Lusitana';
+    margin-bottom:5px;
+}
+p.us_text{
+    width:100%;
+    height:auto;
+    text-align:center;
+    font:normal 14px 'Lusitana';
+}
+/* 소개영역 끝 */
+/* 후기영역 시작 */
+div#m_review_wrap{
+    width:100%;
+    min-height:250px;
+    padding:0px 16px;
+    box-sizing:border-box;
+    margin-bottom:80px;
+}
+ul#m_review{
+    width:100%;
+    height:auto;
+}
+ul#m_review>li{
+    width:100%;
+}
+ul#m_review_list{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+}
+ul#m_review_list>li{
+    width:30%;
+    height:auto;
+}
+p.m_review_img>a>img{
+    width:100%;
+    border-radius:10px;
+}
+p.m_review_text{
+    width:100%;
+    text-align:center;
+}
+p.m_review_text>a{
+    font:normal 14px 'Lusitana';
+}
+/* 후기영역 끝 */
+/* 파트너사 소개영역 */
+div#m_partnership_wrap{
+    width:100%;
+    min-height:270px;
+    padding:0px 16px;
+    box-sizing:border-box;
+    margin-bottom:80px;
+}
+ul.m_partnership_list{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+ul.m_partnership_list>li{
+    width:20.51%;
+}
+ul.m_partnership_list>li>a>img{
+    width:100%;
+}
+
+
+
+
+@media (orientation: landscape){
+    section#about_visual_land{
+        display:block;
+    }
+    p.s_visual_text{
+        padding-top:20px;
+    }
+    ul.us_info>li>img{
+        height:200px;
+    }
+    div#m_us_wrap{
+        margin-bottom:100px;
+    }
+    div#m_review_wrap{
+        margin-bottom:100px;
+    }
+    div#m_partnership_wrap{
+        margin-bottom:100px;
+    }
+}
+
+
+@media (orientation: portrait){
+    section#about_visual_port{
+        display:block;
+    }
+}

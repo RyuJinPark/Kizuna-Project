@@ -1,0 +1,273 @@
+/* 기본설정시작 */
+a{
+  color:black;
+  text-decoration:none;
+}
+.hidden{
+  width:1px;
+  height:1px;
+  font-size:0px;
+  line-height:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+button{
+  border:none;
+  background:none;
+}
+textarea{
+    resize:none;
+}
+/* 기본설정끝 */
+/* 스킵메뉴시작 */
+ul.skipmenu_list li a:focus{
+  width:100%;
+  height:30px;
+  font-size:14px;
+  line-height:30px;
+  background:black;
+  color:#fff;
+  text-align:center;
+  z-index:9999999;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+/* 스킵메뉴끝 */
+/* 상단메뉴시작 */
+div#header_wrap{
+  width:100%;
+  min-width:768px; 
+  height:137px; /*열렸을때 높이 350 px */
+  background: #fefefe;
+  background: -moz-linear-gradient(top,  #fefefe 0%, #fefefe 47px, #c21010 47px, #c21010 137px, rgb(254, 254, 254) 137px, rgb(254, 254, 254) 100%);
+  background: -webkit-linear-gradient(top,  #fefefe 0%,#fefefe 47px, #c21010 47px,#c21010 137px,rgb(254, 254, 254) 137px,rgb(254, 254, 254) 100%);
+  background: linear-gradient(to bottom,  #fefefe 0%,#fefefe 47px, #c21010 47px, #c21010 137px,rgb(254, 254, 254) 137px,rgb(254, 254, 254) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#fefefe',GradientType=0 );
+  position:fixed;
+  left:0px;
+  top:0px;
+  z-index:10;
+}
+header{
+  width:1200px;
+  min-width:768px;
+  height:100%;
+  margin:0px auto;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+h1#logo{
+  width:188px;
+  height:60px;
+  position:absolute;
+  left:0px;
+  top:60px;
+}
+nav#topmenu{
+  width:300px;
+  height:21px;
+  position:absolute;
+  right:280px;
+  top:13px;
+}
+ul#topmenu_list{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+ul#topmenu_list>li>a{
+  font:normal 0.875em "Lusitana";
+  display:block;
+  text-align:center;
+  line-height:21px;
+}
+/* 탑메뉴끝 */
+nav#mainmenu{
+  width:69.83%;
+  height:31px;
+  position:absolute;
+  left:26.5%;
+  top:77px;
+}
+ul#mainmenu_list{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+ul#mainmenu_list>li{
+    width:15%;
+    text-align:center;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+ul#mainmenu_list>li>a{
+  font:bold 1.5em 'Lusitana';
+  color:#fefefe;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+ul#mainmenu_list>li.selected>a{
+    top:-4px;
+}
+/* div.menu_bar{
+    width:15%;
+    height:5px;
+    border-radius:10px;
+    background:#fde8e8;
+    position:absolute;
+    left:0px;
+    top:56px;
+} */
+ul#mainmenu_list>li::after{
+    content:"";
+    display:block;
+    width:100%;
+    height:5px;
+    border-radius:10px;
+    background:#fde8e8;
+    position:absolute;
+    left:0px;
+    top:56px;
+    transform:scale(0,0);
+    transition:0.1s ease-in-out;
+}
+ul#mainmenu_list>li.selected::after{
+    transform:scale(1,1);
+}
+ul.submenu_list{
+    width:100%;
+    height:auto;
+    position:absolute;
+    left:0px;
+    top:60px;
+    display:none;
+    opacity:0;
+}
+ul.submenu_list>li{
+    line-height:30px;
+}
+ul.submenu_list>li>a{
+    font:normal 0.75em 'Lusitana';
+    position:relative;
+    left:0px;
+    top:0px;
+    transition:0.1s;
+    opacity:60%;
+}
+ul.submenu_list>li>a:hover{
+    opacity:100%;
+    top:-3px;
+    font:bold 0.75em 'Lusitana';
+}
+
+form#serch{
+  width:240px;
+  height:21px;
+  background:pink;
+  position:absolute;
+  right:20px;
+  top:8px;
+}
+button#serch_btn{
+  width:39px;
+  height:31px;
+  background:#e64848;
+  border:solid 2px #c21010;
+  position:absolute;
+  left:0px;
+  top:0px;
+  box-sizing:border-box;
+  border-right:none;
+  line-height:31px;
+  text-align:center;
+}
+i#serch_icon{
+  font-size:20px;
+  color:#fefefe;
+}
+input#serch_box{
+  width:201px;
+  height:31px;
+  border:solid 2px #c21010;
+  background:#fff;
+  box-sizing:border-box;
+  position:absolute;
+  right:0px;
+  color:#000
+}
+/* 상단메뉴 끝 */
+/* 하단메뉴 시작 */
+div#footer_wrap{
+  width:100%;
+  height:170px;
+  background:#373737;
+}
+div#clause_wrap{
+  width:100%;
+  height:40px;
+  background:#979797;
+}
+ul#clause_list{
+  width:1200px;
+  min-width:768px;
+  height:40px;
+  margin:0px auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between; 
+}
+ul#clause_list>li>a{
+  font:normal 0.875em/40px 'Lusitana';
+  color:#fff;
+}
+ul#clause_list>li>a:hover{
+    color:black;
+}
+address#address_wrap{
+  width:1200px;
+  min-width:768px;
+  height:100px;
+  margin:0px auto;
+}
+p#footer_logo{
+  float:left;
+  padding-top:10px;
+}
+ul#address_list{
+  width:100%;
+  height:auto;
+  padding-top:20px;
+  box-sizing:border-box;
+}
+ul#address_list>li{
+  margin-bottom:10px;
+}
+ul#address_list>li:last-child{
+  margin-bottom:0px;
+}
+span.address_text{
+  font:normal 0.875em 'Lusitana';
+  color:#fff;
+  margin-right:10px;
+}
+
+
+@media screen and (max-width:1200px){
+    header, ul#clause_list, address#address_wrap{
+        width:100%;
+    }
+}
+
+

@@ -1,0 +1,355 @@
+/*기본 활성화 값*/
+.selected{
+    color:red;
+}   
+/*활성화 값 지정 끝*/
+
+div#work_visual_wrap{
+    width:100%;
+    height:450px;
+    background:url('/kizuna_rwd/work/images/work_banner.png') no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+    margin-top:127px;
+}
+div#work_banner_text{
+    width:1200px;
+    height:450px;
+    margin:0px auto;
+}
+p.work_visual_text{
+    width:100%;
+    height:30px;
+    font:normal 20px 'Lusitana';
+    color:#fff;
+    padding-top:145px;
+    padding-left:75px;
+    box-sizing:border-box;
+    margin-bottom:30px;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+p.work_visual_title{
+    width:100%;
+    height:130px;
+    font:bold 42px 'Lusitana';
+    color:#fff;
+    padding-left:75px;
+    box-sizing:border-box;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+span.visual_point{
+    color:#fff;
+}
+/* 배너 끝 */
+/* 워크 페이지 컨텐츠 시작 */
+div#work_content_wrap{
+    width:100%;
+    min-height:1900px;
+    margin-top:70px;
+}
+section#workinfo_wrap{
+    width:1200px;
+    height:auto;
+    margin:0px auto;
+}
+h3.wk_title{
+    width:100%;
+    height:55px;
+    font:bold 42px 'Lusitana';
+    text-align:center;
+    margin-bottom:10px;
+}
+p.wk_text{
+    width:100%;
+    height:41px;
+    font:normal 14px 'Lusitana';
+    text-align:center;
+}
+div#regional_choice{
+    width:100%;
+    height:auto;
+    margin-top:80px;
+}
+ul#regional_list{
+    width:83.33%;
+    margin:0px auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+/* ul#regional_list>li{
+    font:bold 20px 'Lusitana';
+    margin-bottom:20px;
+} */
+li.area_choice{
+    font:bold 20px 'Lusitana';
+    margin-bottom:20px;
+}
+div#area_item{
+    width:83.33%;
+    height:auto;
+    margin:0px auto;
+}
+ul#regional_item{
+    width:100%;
+    height:auto;
+}
+ul#regional_item>li{
+    width:100%;
+    height:490px;
+}
+ul#regional_item>li:last-child{
+    height:100px;
+}
+ul#regional_item>li>img{
+    width:100%;
+    height:490px;
+}
+ul#area_list{
+    width:100%;
+    height:100px;
+    background:#ededed;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+ul#area_list>li>a{
+    font:normal 14px/100px 'Lusitana';
+}
+div#recommend_work{
+    width:83.33%;
+    height:auto;
+    margin:0px auto;
+    margin-top:30px;
+}
+p.workinfo_title{
+    width:100%;
+    height:26px;
+    text-align:left;
+    font:bold 20px 'Lusitana';
+    margin-bottom:20px;
+}
+ul#rmwk_list{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+ul#rmwk_list>li{
+    width:25%;
+    height:auto;
+}
+p.rmwk_img>a>img{
+    width:100%;
+}
+p.rmwk_text{
+    margin-top:10px;
+}
+p.rmwk_text>a{
+    font:normal 14px 'Lusitana';
+}
+div#recruit_wrap{
+    width:83.33%;
+    height:auto;
+    margin:30px auto;
+}
+ul#recruit_list{
+    width:100%;
+    height:auto;
+}
+ul#recruit_list>li{
+    width:100%;
+    height:150px;
+    background:#ededed;
+    margin-bottom:30px;
+    border-radius:10px;
+}
+ul.recruit_choice{
+    width:100%;
+    height:auto;
+}
+ul.recruit_choice>li{
+  float:left;
+}
+li.logo_img{
+  width:20%;
+  margin:25px 2%;
+}
+li.logo_img>img{
+  width:100%;
+  height:100px;
+}
+li.choice_p{
+  width:60%;
+  height:150px;
+  padding-top:15px;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+p.choice_text>a{
+  font:normal 0.875em/30px 'Lusitana';
+}
+li.recruit_btn{
+  width:10%;
+  height:auto;
+  margin-left:3%;
+  margin-top:50px;
+}
+button.choice_btn{
+  width:100%;
+  height:50px;
+  border-radius:10px;
+  background:#d70990;
+  font:normal 14px 'Lusitana';
+  text-align:center;
+  color:#fff;
+  border:none;
+}
+/* 지역별 채용정보 끝 */
+/* 세미나 안내 시작 */
+section#semi_wrap{
+  width:1200px;
+  height:auto;
+  margin:0px auto;
+  margin-top:120px;
+}
+ul#semi_list{
+  width:100%;
+  height:500px;
+  margin-top:60px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+li.semi_info{
+  width:20.83%;
+  height:100%;
+}
+p.semi_img{
+  width:100%;
+  height:250px;
+}
+p.semi_img>a>img{
+  width:100%;
+  height:250px;
+}
+p.semi_title{
+  width:100%;
+  height:18px;
+  margin-bottom:10px;
+}
+p.semi_title>a{
+  font:normal 0.875em 'Lusitana';
+}
+p.semi_text{
+  width:100%;
+  height:auto;
+}
+p.semi_text>a{
+  font:normal 0.875em 'Lusitana';
+}
+/* 세미나 안내 끝 */
+/* 인터뷰 팁 시작 */
+section#interview_wrap{
+  width:1200px;
+  height:auto;
+  margin:0px auto;
+  margin-top:80px;
+}
+ul#interview_list{
+  width:83.33%;
+  height:300px;
+  margin:60px auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+li.inter_info{
+  width:13%;
+  height:100%;
+}
+p.inter_img{
+  width:100%;
+  padding-left:16px;
+  box-sizing:border-box;
+  height:110px;
+}
+p.inter_img>a>img{
+  width:100%;
+  height:110px;
+}
+p.inter_text{
+  width:100%;
+  height:auto;
+  text-align:center;
+}
+p.inter_text>a{
+  font:normal 0.875em 'Lusitana';
+}
+/* 인터뷰 팁 끝 */
+/* 워크 후기 시작 */
+section#wk_review_wrap{
+  width:1200px;
+  height:auto;
+  margin:0px auto;
+  margin-top:80px;
+}
+ul#wk_re_list{
+  width:100%;
+  height:300px;
+  margin:60px auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+li.wk_re_info{
+  width:200px;
+  height:100%;
+  margin-right:50px;
+}
+li.wk_re_info:last-child{
+    margin-right:0px;
+}
+p.wk_re_img{
+  width:100%;
+  height:200px;
+}
+p.wk_re_img>a>img{
+  width:100%;
+  height:200px;
+}
+p.wk_re_text{
+  width:100%;
+  height:auto;
+}
+p.wk_re_text>a{
+  font:normal 14px 'Lusitana';
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    div#work_banner_text, section#workinfo_wrap, section#semi_wrap, section#interview_wrap, section#wk_review_wrap{
+        width:100%;
+    }
+}
+@media screen and (max-width:980px){
+    li.wk_re_info{
+        width:20%;
+        height:auto;
+    }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kizuna_FAQ</title>
+  <link rel="stylesheet" href="/kizuna_rwd/css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Lusitana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/kizuna_rwd/css/common.css">
+  <link rel="stylesheet" href="/kizuna_rwd/faq/css/faq.css">
+  <script>
+      let ua = window.navigator.userAgent.toLowerCase();
+	    //let mobileWindowWidth
+
+	    if(/iphone/.test(ua) || /android/.test(ua) || /opera/.test(ua) || /bada/.test(ua) || /ipad/.test(ua) || /windows ce/.test(ua)) {
+	     document.location.replace("http://ryu7897.dothome.co.kr/kizuna_rwd/mobile/");
+    	}
+
+
+      window.addEventListener('resize', ()=>{
+        let windowSize=window.innerWidth;
+
+        if(windowSize<=768){
+          window.location.replace("http://ryu7897.dothome.co.kr/kizuna_rwd/mobile/")
+        }
+
+
+      })
+  </script>
+</head>
+<body>
+     <!-- 바로가기메뉴 시작 -->
+ <ul class="skipmenu_list">
+    <li><a href="#mainmenu" class="hidden">메인메뉴바로가기</a></li>
+    <li><a href="#content_wrap" class="hidden">본문바로가기</a></li>
+    <li><a href="#footer_wrap" class="hidden">하단바로가기</a></li>
+</ul>
+  <!-- 바로가기메뉴끝 -->
+  <!-- 상단영역시작 -->
+  <div id="header_wrap">
+    <header>
+      <h1 id="logo">
+        <a href="/kizuna_rwd/index.php"><img src="/kizuna_rwd/images/logo.png" alt="Kizuna"></a>
+      </h1>
+      <nav id="topmenu">
+        <h2 class="hidden">상단빠른메뉴</h2>
+        <ul id="topmenu_list">
+          <li><a href="#">Korean</a></li>
+          <li><a href="#">Japanese</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">My page</a></li>
+        </ul>
+      </nav>
+      <nav id="mainmenu">
+        <h2 class="hidden">메인메뉴바로가기</h2>
+        <ul id="mainmenu_list">
+          <li>
+            <a href="/kizuna_rwd/about/about.php" target="_blank" title="소개페이지 새창으로 바로가기">About</a>
+            <ul class="submenu_list">
+              <li><a href="/kizuna_rwd/about/about.php" target="_blank">기업소개</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/kizuna_rwd/partner/partner.php" target="_blank" title="파트너페이지 새창으로 바로가기">Partner</a>
+            <ul class="submenu_list">
+              <li><a href="/kizuna_rwd/partner/partner.php#pt_info">파트너 시스템 소개</a></li>
+              <li><a href="/kizuna_rwd/partner/partner.php#bpt_wrap">Best Partner</a></li>
+              <li><a href="/kizuna_rwd/partner/partner.php#npt_wrap">지역별 파트너 찾기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/kizuna_rwd/study/study.html" target="_blank" title="유학,워홀페이지 새창으로 바로가기">Study</a>
+            <ul class="submenu_list">
+              <li><a href="#">입시정보</a></li>
+              <li><a href="#">지역별 알바구인</a></li>
+              <li><a href="#">유학 Q&A</a></li>
+              <li><a href="#">유학&워홀 후기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/kizuna_rwd/work/work.php" target="_blank" title="취업페이지 새창으로 바로가기">Work</a>
+            <ul class="submenu_list">
+              <li><a href="#">지역별 채용정보</a></li>
+              <li><a href="#">웹 세미나 정보</a></li>
+              <li><a href="#">취업 Tip</a></li>
+              <li><a href="#">취업 후기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/kizuna_rwd/house/house.html" target="_blank" title="하우스페이지 새창으로 바로가기">House</a>
+            <ul class="submenu_list">
+              <li><a href="#">각 지역 매물 찾기</a></li>
+              <li><a href="#">부동산 가이드</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+            <ul class="submenu_list">
+              <li><a href="#">자주묻는 질문</a></li>
+              <li><a href="#">1:1문의</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <form id="serch">
+        <h2 class="hidden">메뉴검색</h2>
+        <fieldset>
+          <legend class="hidden">검색</legend>       
+          <input type="text" name="serch_box" id="serch_box" maxlength="20" size="20" autocomplete="off">
+          <button id="serch_btn"><i class="fa-solid fa-magnifying-glass" id="serch_icon"></i></button>
+        </fieldset>
+      </form>
+    </header>
+  </div>
+  <!-- 상단영역끝 -->
+        <!-- 비주얼영역 시작 -->
+        <div id="st_visual_wrap">
+            <h2 class="hidden">준비중입니다.</h2>
+            <div id="st_banner_text">
+              <p class="st_visual_text">작업 중</p>
+              <p class="st_visual_title">아직<span class="visual_point">작업</span>을<br>
+                진행중에 있습니다....</p>
+            </div>
+          </div>
+          <!-- 비주얼 끝 -->
+</body>
+</html>

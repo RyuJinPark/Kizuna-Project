@@ -1,0 +1,387 @@
+main{
+    width:100%;
+    min-height:1200px;
+}
+div#visual_wrap{
+    width:100%;
+    height:250px;
+    margin-bottom:80px;
+}
+div#visual_land_wrap{
+    width:100%;
+    height:250px;
+    margin-bottom:80px;
+}
+ul.visual_list{
+    width:100%;
+    height:100%;
+}
+ul.visual_list>li{
+    width:100%;
+    height:100%;
+}
+/* ul.visual_list>li:nth-child(1){
+    display:none;
+} */
+section.main_visual{
+    width:100%;
+    height:250px;
+    background:url('/kizuna_rwd/mobile/images/main_banner.png')no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+section.main_visual_land{
+    width:100%;
+    height:250px;
+    background:url('/kizuna_rwd/mobile/images/main_banner_land.png')no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+/* div.m_visual_textbox{
+    width:76.92%;
+    height:120px;
+    background:#fefefe;
+    border-radius:18px 2px;
+    position:absolute;
+    left:11.53%;
+    top:150px;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.25);
+} */
+p.visual_title{
+    width:100%;
+    padding-left:30px;
+    padding-top:82px;
+    box-sizing:border-box;
+    font:bold 6.1538vw/31px 'Lusitana';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color:#fff;
+}
+p.visual_text{
+    width:100%;
+    padding-left:30px;
+    padding-top:10px;
+    box-sizing:border-box;
+    font:normal 3.5897vw/18px 'Lusitana';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color:#fff;
+}
+/* 비주얼 끝 */
+section#quickmenu_wrap{
+    width:100%;
+    padding:0px 16px;
+    box-sizing:border-box;
+    margin-bottom:80px;
+}
+ul#quickmenu_list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+ul#quickmenu_list>li{
+    width:20.51%;
+    height:80px;
+}
+p.quick_img{
+    width:100%;
+}
+p.quick_img>a>img{
+    width:100%;
+    border-radius:10px;
+}
+p.quick_text{
+    width:100%;
+    font:normal 14px 'Lusitana';
+    text-align:center;
+}
+/* 퀵 메뉴 끝 */
+section#m_partner_wrap{
+    width:100%;
+    padding:0px 16px;
+    box-sizing:border-box;
+    margin-bottom:80px;
+}
+h2.m_content_title{
+    width:100%;
+    font:bold 26px/34px 'Lusitana';
+    margin-bottom:5px;
+}
+p.m_content_text{
+    width:100%;
+    font:normal 14px/18px 'Lusitana';
+    margin-bottom:50px;
+}
+ul#partner_list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:100%;
+    height:auto;
+}
+ul#partner_list>li{
+    width:28.2%;
+    height:200px;
+    border:solid 1px #000;
+    border-radius:10px;
+}
+p.partner_pic{
+  width:100%;
+  height:90px;
+  box-sizing:border-box;
+}
+p.partner_pic>a>img{
+  width:100%;
+  height:90px;
+  border-radius:10px 10px 0px 0px;
+}
+p.partner_name{
+  width:100%;
+  height:25px;
+  background:#ededed;
+  box-sizing:border-box;
+  border-bottom:solid 1px black;
+  border-top:solid 1px black;
+  text-align:center;
+}
+p.partner_name>a{
+  font:normal 16px 'Lusitana';
+}
+p.partner_text{
+    width:100%;
+    height:auto;
+    text-align:center;
+    padding-top:5px;
+    box-sizing:border-box;
+}
+p.partner_text>a{
+  font:normal 14px 'Lusitana';
+}
+/* 파트너 끝 */
+section#m_study_wrap{
+  width:100%;
+  min-height:600px;
+  padding:30px 16px;
+  box-sizing:border-box;
+  background:#c21010;
+}
+h3.sw_title_w{
+  width:100%;
+  font:bold 18px 'Lusitana';
+  color:#fff;
+  margin-bottom:20px;
+}
+h2.m_content_title_w{
+  width:100%;
+  font:bold 26px/34px 'Lusitana';
+  margin-bottom:5px;
+  color:#fff;
+}
+p.m_content_text_w{
+  width:100%;
+  font:normal 14px/18px 'Lusitana';
+  margin-bottom:50px;
+  color:#fff;
+}
+ul.sw_content_list{
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+ul.sw_content_list>li{
+  width:28.2%;
+  height:120px;
+  margin-bottom:30px;
+}
+p.sw_pic{
+  width:100%;
+  height:110px;
+  margin-bottom:5px;
+}
+p.sw_pic>a>img{
+  width:100%;
+  height:110px;
+  border:solid 1px #fefefe;
+}
+p.sw_text_w{
+  width:100%;
+  text-align:center;
+  overflow:hidden;
+}
+p.sw_text_w>a{
+  color:#fff;
+  font:normal 14px 'Lusitana';
+}
+/* 스터디 끝 */
+section#m_work_wrap{
+  width:100%;
+  min-height:600px;
+  padding:30px 16px;
+  box-sizing:border-box;
+  background:#ededed;
+}
+h3.sw_title{
+  width:100%;
+  font:bold 18px 'Lusitana';
+  color:#000;
+  margin-bottom:20px;
+}
+h2.m_content_title{
+  width:100%;
+  font:bold 26px/34px 'Lusitana';
+  margin-bottom:5px;
+  color:#000;
+}
+p.m_content_text{
+  width:100%;
+  font:normal 14px/18px 'Lusitana';
+  margin-bottom:50px;
+  color:#000;
+}
+p.sw_text{
+  width:100%;
+  text-align:center;
+  overflow:hidden;
+}
+p.sw_text>a{
+  color:#000;
+  font:normal 14px 'Lusitana';
+}
+/* 취업 영역 끝 */
+section#m_house_wrap{
+  width:100%;
+  min-height:300px;
+  padding:30px 16px;
+  box-sizing:border-box;
+}
+p.sw_pic_r>a>img{
+  width:100%;
+  height:110px;
+  border-radius:10px;
+}
+/* 하우스 영역 끝 */
+section#m_faq_wrap{
+  width:100%;
+  min-height:450px;
+  padding:30px 16px;
+  box-sizing:border-box;
+  position:relative;
+  left:0px;
+  top:0px;
+  margin-bottom:50px;
+}
+form#faq_content{
+  width:100%;
+  height:auto;
+  margin-top:30px;
+}
+ul#faq_list{
+  width:100%;
+  height:auto;
+}
+ul#faq_list>li{
+  width:64.1%;
+  height:40px;
+  margin:0px auto;
+  margin-bottom:20px;
+}
+span.faq_text{
+  width:25%;
+  height:40px;
+  background:#f32f2f;
+  float:left;
+  border-radius:10px 0px 0px 10px;
+  font:normal 14px/40px 'Lusitana';
+  text-align:center;
+  color:#fff;
+}
+input.text_box{
+  width:75%;
+  height:40px;
+  background:#ededed;
+  box-sizing:border-box;
+  border:none;
+  border-radius:0px 10px 10px 0px;
+}
+span#faq_big{
+  width:25%;
+  height:100px;
+  background:#f32f2f;
+  float:left;
+  border-radius:10px 0px 0px 10px;
+  font:normal 14px/100px 'Lusitana';
+  text-align:center;
+  color:#fff;
+}
+textarea#write_box{
+  width:75%;
+  height:100px;
+  box-sizing:border-box;
+  background:#ededed;
+  border:none;
+  border-radius:0px 10px 10px 0px;
+  font:normal 14px 'Lusitana';
+}
+p.agree_text{
+  width:100%;
+  height:21px;
+  font:normal 14px 'Lusitana';
+  margin-top:80px;
+  text-align:center;
+}
+p#check_text{
+  width:100%;
+  height:21px;
+  font:normal 14px 'Lusitana';
+  text-align:center;
+}
+input.inquiry_btn{
+  width:100px;
+  height:50px;
+  background:#171717;
+  border:none;
+  border-radius:12px;
+  bottom:0px;
+  font:normal 14px 'Lusitana';
+  color:#fff;
+  position:absolute;
+  bottom:0px;
+  left:50%;
+  margin-left:-50px;
+}
+
+
+@media (orientation: landscape){
+    div#visual_land_wrap{
+        display:block;
+    }
+    div#visual_wrap{
+        display:none;
+    }
+    p.visual_title{
+        margin-bottom:20px;
+        padding-top:62px;
+    }
+    p.visual_text{
+        margin-bottom:20px;
+        padding-left:35px;
+    }
+}
+@media (orientation: portrait){
+    div#visual_wrap{
+        display:block;
+    }
+    div#visual_land_wrap{
+        display:none;
+    }
+}
+
+
+

@@ -1,0 +1,221 @@
+div#pt_visual_wrap{
+    width:100%;
+    min-width:768px;
+    height:450px;
+    background:url('/kizuna_rwd/partner/images/pn_banner.png') no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+    margin-top:127px;
+}
+div#pt_banner_text{
+    width:1200px;
+    height:450px;
+    margin:0px auto;
+}
+p.pt_visual_text{
+    width:100%;
+    height:30px;
+    font:normal 20px 'Lusitana';
+    color:#fff;
+    padding-top:145px;
+    padding-left:75px;
+    box-sizing:border-box;
+    margin-bottom:30px;
+}
+p.pt_visual_title{
+    width:100%;
+    height:130px;
+    font:bold 42px 'Lusitana';
+    color:#fff;
+    padding-left:75px;
+    box-sizing:border-box;
+}
+span.visual_point{
+    color:#fff;
+}
+/* 배너 終 */
+/* 파트너 페이지 컨텐츠 시작 */
+div#pt_content_wrap{
+    width:100%;
+    min-height:1200px;
+    margin-top:70px;
+}
+section#pt_info{
+    width:1200px;
+    height:auto;
+    margin:0px auto;
+}
+p.pt_title{
+    width:100%;
+    height:55px;
+    font:bold 42px 'Lusitana';
+    text-align:center;
+    margin-bottom:15px;
+}
+p.pt_text{
+    width:100%;
+    height:41px;
+    font:normal 14px 'Lusitana';
+    margin-bottom:10px;
+    text-align:center;
+}
+p.pt_point{
+    width:100%;
+    height:18px;
+    font:normal 14px 'Lusitana';
+    color:#d70990;
+    text-align:center;
+}
+div#pt_info_list{
+    width:66.66%;
+    height:400px;
+    margin:80px auto;
+}
+p.pt_info_num{
+    width:10%;
+    height:80px;
+    float:left;
+    background:#d70990;
+    border-radius:10px;
+    font:bold 20px/80px 'Lusitana';
+    text-align:center;
+    color:#fff;
+}
+p.pt_info_text{
+    width:100%;
+    height:80px;
+    background:#ededed;
+    border-radius:10px;
+    font:bold 20px/80px 'Lusitana';
+    text-align:center;
+}
+p.down_arrow{
+    width:100%;
+    text-align:center;
+    font-size:35px;
+    margin:10px 0px;
+}
+span.pt_text_point{
+    color:#d70990;
+}
+/* 파트너 시스템 소개 끝 */
+/* 베스트 파트너 소개 */
+section#bpt_wrap{
+    width:1200px;
+    height:auto;
+    margin:100px auto;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+  ul#bpt_list{
+    width:100%;
+    height:100%;
+    margin-top:70px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+  }
+  ul#bpt_list>li{
+    width:20.83%;
+    height:auto;
+    margin-left:2%;
+    border:solid 1px #000;
+    border-radius:10px;
+  }
+  ul#bpt_list>li:first-child{
+    margin-left:0px;
+  }
+  p.bpt_pic{
+    width:100%;
+    height:auto;
+  }
+  p.bpt_pic>a>img{
+    width:100%;
+    border-radius:10px 10px 0px 0px;
+    border-bottom:solid 1px #000;
+    box-sizing:border-box;
+  }
+  p.bpt_name{
+    width:100%;
+    height:42px;
+    border-bottom:solid 1px #000;
+    text-align:center;
+  }
+  p.bpt_name>a{
+    font:bold 20px/42px 'Lusitana';
+  }
+  p.bpt_text{
+    width:100%;
+    height:160px;
+    overflow:hidden;
+    border-radius:0px 0px 10px 10px;
+    padding:25px 30px;
+    box-sizing:border-box;
+    text-align:center;
+  }
+  p.bpt_text>a{
+    font:normal 14px/18px 'Lusitana';
+  }
+  button.pt_back_btn{
+    width:32px;
+    height:52px;
+    position:absolute;
+    left:0%;
+    top:369px;
+  }
+  button.pt_next_btn{
+    width:32px;
+    height:52px;
+    position:absolute;
+    right:0%;
+    top:369px;
+  }
+/* 베스트 파트너 소개 끝 */
+/* 일반 일본 파트너 소개 */
+section#npt_wrap{
+    width:1200px;
+    height:auto;
+    margin:100px auto;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+  ul#npt_list{
+    width:100%;
+    height:100%;
+    margin-top:70px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+  }
+  ul#npt_list>li{
+    width:20.83%;
+    height:auto;
+    margin-left:2%;
+    border:solid 1px #000;
+    border-radius:10px;
+  }
+  ul#npt_list>li:first-child{
+    margin-left:0px;
+  }
+
+
+
+
+@media screen and (max-width:1200px){
+    div#pt_banner_text, section#pt_info, section#bpt_wrap, section#npt_wrap{
+        width:100%;
+    }
+    
+}
+
+
+
+  
+
+  

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kizuna</title>
+  <link rel="stylesheet" href="/kizuna_rwd/css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Lusitana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/kizuna_rwd/css/common.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js "></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js'></script>
+  <script src="/kizuna_rwd/js/nav.js"></script>
+
+
+  <script>
+      let ua = window.navigator.userAgent.toLowerCase();
+	    //let mobileWindowWidth
+
+	    if(/iphone/.test(ua) || /android/.test(ua) || /opera/.test(ua) || /bada/.test(ua) || /ipad/.test(ua) || /windows ce/.test(ua)) {
+	     document.location.replace("http://ryu7897.dothome.co.kr/kizuna_rwd/mobile/");
+    	}
+
+
+      window.addEventListener('resize', ()=>{
+        let windowSize=window.innerWidth;
+
+        if(windowSize<=768){
+          window.location.replace("http://ryu7897.dothome.co.kr/kizuna_rwd/mobile/")
+        }
+
+
+      })
+  </script>

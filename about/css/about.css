@@ -1,0 +1,208 @@
+div#sub_visual_wrap{
+    width:100%;
+    min-width:768px;
+    height:450px;
+    background:url('/kizuna_rwd/about/images/about_banner.png') no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+    margin-top:127px;
+}
+div#banner_text{
+    width:1200px;
+    height:450px;
+    margin:0px auto;
+}
+p.sub_visual_text{
+    width:100%;
+    height:30px;
+    font:normal 20px 'Lusitana';
+    color:#fff;
+    padding-top:145px;
+    padding-left:75px;
+    box-sizing:border-box;
+    margin-bottom:30px;
+}
+p.sub_visual_title{
+    width:100%;
+    height:130px;
+    font:bold 42px 'Lusitana';
+    color:#fff;
+    padding-left:75px;
+    box-sizing:border-box;
+}
+span.visual_point{
+    color:#fff;
+}
+/* 배너 終 */
+/* kizuna us 영역 시작 */
+div#about_content_wrap{
+    width:100%;
+    min-width:768px;
+    min-height:1200px;
+    margin-top:150px;
+}
+section#sub_contents{
+    width:1200px;
+    height:100%;
+    margin:0px auto;
+}
+div#kizuna_us{
+    width:100%;
+    min-width:768px;
+    height:700px;
+}
+ul.sub_info_list{
+    width:100%;
+    min-width:768px;
+    height:300px;
+    padding-left:120px;
+    box-sizing:border-box;
+    margin-bottom:100px;
+}
+ul.sub_info_list>li{
+    float:left;
+    margin-right:6.66%;
+    width:300px;
+    height:300px;
+}
+ul.sub_info_list>li>img{
+    width:100%;
+    border-radius:10px;
+}
+ul.sub_info_list>li:nth-child(2n){
+    width:600px;
+    height:300px;
+}
+p.sub_info_title{
+    font:bold 1.25em 'Lusitana';
+    padding-top:50px;
+    margin-bottom:20px;
+}
+p.sub_info_text{
+    font:normal 0.875em 'Lusitana';
+    margin-bottom:40px;
+}
+p.sub_info_text>a>i{
+    padding-right:10px;
+}
+span.info_textpoint{
+    color:#d70990;
+}
+/* kizuna us 영역 끝 */
+/* study,work 소개 영역 시작 */
+div#sw_info_wrap{
+    width:100%;
+    min-height:300px;
+    margin-top:180px;
+}
+p.about_title{
+    width:100%;
+    font:bold 1.25em 'Lusitana';
+    margin-bottom:10px;
+    text-align:center;
+}
+p.about_text{
+    width:100%;
+    font:normal 0.875em 'Lusitana';
+    text-align:center;
+}
+span.about_point{
+    color:#d70990;
+}
+ul#share_list{
+    width:100%;
+    min-height:250px;
+    margin:0px auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-top:60px;
+}
+ul#share_list>li{
+    width:200px;
+    height:250px;
+}
+p.share_img>a>img{
+    width:100%;
+    border-radius:10px;
+}
+p.share_text{
+    padding-top:10px;
+    box-sizing:border-box;
+}
+p.share_text>a{
+    font:normal 14px 'Lusitana';
+}
+/* study,work 소개 영역 끝 */
+/* 파트너사 소개 영역 */
+div#partner_wrap{
+    width:100%;
+    min-height:810px;
+    margin-top:160px;
+}
+ul.partner_list{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:50px;
+    margin-bottom:100px;
+}
+ul.partner_list>li{
+    width:10.83%;
+    margin-left:4.83%;
+}
+ul.partner_list>li:first-child{
+    margin-left:0px;
+}
+ul.partner_list>li img{
+    width:100%;
+}
+
+
+
+
+@media screen and (max-width:1200px){
+    div#banner_text, section#sub_contents, div#kizuna_us{
+        width:100%;
+    }
+    ul.sub_info_list>li:nth-child(2n){
+        width:50%;
+        height:300px;
+    }
+    ul#share_list{
+        width:100%;
+    }
+    ul.partner_list{
+        width:100%;
+    }
+}
+@media screen and (max-width:980px){
+    ul.sub_info_list{
+        padding-left:50px;
+    }
+    ul.sub_info_list>li{
+        width:25%;
+    }
+    p.sub_info_title{
+        padding-top:0px;
+    }
+    p.sub_info_text{
+        margin-bottom:20px;
+    }
+    ul#share_list>li{
+        width:16.66%;
+    }
+    div#sw_info_wrap{
+        margin-top:80px;
+    }
+    div#partner_wrap{
+        margin-top:50px;
+    }
+}
+

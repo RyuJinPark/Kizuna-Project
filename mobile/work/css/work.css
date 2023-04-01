@@ -1,0 +1,398 @@
+main{
+    width:100%;
+    min-height:1200px;
+}
+section#work_visual_port{
+    width:100%;
+    height:200px;
+    background:url('/kizuna_rwd/mobile/work/images/m_work_visualbanner_port.png')no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+    margin-bottom:80px;
+    display:none;
+}
+section#work_visual_land{
+    width:100%;
+    height:200px;
+    background:url('/kizuna_rwd/mobile/work/images/m_work_visualbanner_land.png')no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+    margin-bottom:100px;
+    display:none;
+}
+div.s_visual_textbox{
+    width:76.92%;
+    height:120px;
+    background:#fefefe;
+    border-radius:18px 2px;
+    position:absolute;
+    left:11.53%;
+    top:100px;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+p.s_visual_title{
+    width:100%;
+    padding-left:20px;
+    padding-top:20px;
+    box-sizing:border-box;
+    font:bold 12px 'Lusitana';
+}
+p.s_visual_text{
+    width:100%;
+    padding-left:20px;
+    padding-top:10px;
+    box-sizing:border-box;
+    font:bold 24px 'Lusitana';
+}
+span.text_point{
+    color:#d70990;
+}
+/* 비주얼 영역 끝 */
+/* 채용정보 공고란 시작 */
+/* 공통 */
+h2.w_content_title{
+    width:100%;
+    height:auto;
+    text-align:center;
+    font:bold 24px 'Lusitana';
+    margin-bottom:5px;
+}
+p.w_content_text{
+    width:100%;
+    height:auto;
+    text-align:center;
+    font:normal 14px 'Lusitana';
+}
+p.w_content_point{
+    width:100%;
+    height:auto;
+    text-align:center;
+    font:normal 14px 'Lusitana';
+    color:#d70990;
+    margin-bottom:40px;
+}
+/* 공통 끝 */
+section#m_workinfo_wrap{
+    width:100%;
+    min-height:1200px;
+    padding:0px 16px;
+    box-sizing:border-box;
+}
+div#m_regional_choice{
+    width:100%;
+    height:auto;
+    margin-bottom:50px;
+}
+ul#m_regional_list{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-bottom:5px;
+}
+ul#m_regional_list>li{
+    font:normal 16px 'Lusitana';
+}
+/* 상기 배너 끝 */
+div#m_area_item{
+    width:100%;
+    height:auto;
+}
+ul#m_regional_item{
+    width:100%;
+    height:auto;
+}
+ul#m_regional_item>li{
+    width:100%;
+    height:170px;
+}
+ul#m_regional_item>li:last-child{
+    height:40px;
+}
+ul#m_regional_item>li>img{
+    width:100%;
+    height:170px;
+}
+ul#m_area_list{
+    width:100%;
+    height:40px;
+    background:#ededed;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+ul#m_area_list>li>a{
+    font:normal 14px/40px 'Lusitana';
+}
+/* 상기 배너 메뉴끝 */
+/* 추천채용공고 시작 */
+div#m_recommend_work{
+    width:100%;
+    min-height:400px;
+    margin-bottom:60px;
+}
+p.w_content_title{
+    width:100%;
+    height:auto;
+    text-align:left;
+    font:bold 24px 'Lusitana';
+    margin-bottom:10px;
+}
+ul#m_rmwk_list{
+    width:100%;
+    height:auto;
+}
+ul#m_rmwk_list>li{
+    width:100%;
+    height:110px;
+    background:#ededed;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+p.m_rmwk_img{
+    width:31.42%;
+    height:110px;
+    float:left;
+    margin-right:10px;
+}
+p.m_rmwk_img>a>img{
+    width:100%;
+    height:110px;
+}
+p.m_rmwk_text{
+    width:100%;
+    height:110px;
+    padding-top:25px;
+    box-sizing:border-box;
+}
+p.m_rmwk_text>a{
+    font:normal 14px 'Lusitana';
+}
+/* 추천채용공고 끝 */
+div#m_recruit_wrap{
+    width:100%;
+    min-height:390px;
+}
+ul#m_recruit_list{
+    width:100%;
+    height:auto;
+}
+ul#m_recruit_list>li{
+    width:100%;
+    height:80px;
+    background:#ededed;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+li.m_logo_img{
+  width:20%;
+  height:70px;
+  float:left;
+  margin-top:5px;
+  margin-left:10px;
+  margin-right:10px;
+}
+li.m_logo_img>img{
+  width:100%;
+  height:70px;
+}
+li.m_choice_p{
+  width:100%;
+  height:70px;
+  padding-top:10px;
+  box-sizing:border-box;
+}
+p.m_choice_text{
+  width:100%;
+  height:70px;
+}
+p.m_choice_text>a{
+  font:normal 14px 'Lusitana';
+}
+/* 지역별 채용정보란 끝 */
+/* 세미나 정보 */
+/* 숨김 */
+ul#m_semi_list>li:nth-child(3){
+  display:none;
+}
+ul#m_semi_list>li:nth-child(4){
+  display:none;
+}
+/* 숨김 */
+section#m_semi_wrap{
+  width:100%;
+  min-height:310px;
+  padding:0px 16px;
+  box-sizing:border-box;
+  margin-top:70px;
+}
+ul#m_semi_list{
+  width:100%;
+  min-height:270px;
+  margin-top:20px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+li.m_semi_info{
+  width:41.02%;
+  height:100%;
+}
+p.m_semi_img{
+  width:100%;
+  height:100px;
+}
+p.m_semi_img>a>img{
+  width:100%;
+  height:100px;
+}
+p.m_semi_title{
+  width:100%;
+  height:18px;
+  margin-bottom:10px;
+}
+p.m_semi_title>a{
+  font:normal 14px 'Lusitana';
+}
+p.m_semi_text{
+  width:100%;
+  height:auto;
+}
+p.m_semi_text>a{
+  font:normal 14px 'Lusitana';
+}
+/* 세미나 정보 끝 */
+/* 팁 wrap */
+section#m_interview_wrap{
+  width:100%;
+  min-height:220px;
+  padding:0px 16px;
+  box-sizing:border-box;
+  margin-top:70px;
+}
+ul#m_interview_list{
+  width:100%;
+  height:200px;
+  margin-top:20px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+li.m_inter_info{
+  width:20.51%;
+  height:100%;
+}
+p.m_inter_img{
+  width:100%;
+  height:80px;
+}
+p.m_inter_img>a>img{
+  width:100%;
+  height:80px;
+}
+p.m_inter_text{
+  width:100%;
+  height:auto;
+  text-align:center;
+}
+p.m_inter_text>a{
+  font:normal 14px 'Lusitana';
+}
+/* 팁 wrap끝 */
+/* 후기 시작 */
+section#m_review_wrap{
+  width:100%;
+  min-height:210px;
+  padding:0px 16px;
+  box-sizing:border-box;
+  margin-top:50px;
+}
+ul#mw_re_list{
+  width:100%;
+  height:180px;
+  margin-top:20px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+li.mw_re_info{
+  width:30%;
+  height:100%;
+}
+p.mw_re_img{
+  width:100%;
+  height:110px;
+}
+p.mw_re_img>a>img{
+  width:100%;
+  height:110px;
+}
+p.mw_re_text{
+  width:100%;
+  height:auto;
+  text-align:center;
+}
+p.mw_re_text>a{
+  font:normal 14px 'Lusitana';
+}
+/* 후기 끝 */
+
+
+
+
+
+
+
+@media (orientation: portrait){
+    section#work_visual_port{
+        display:block;
+    }
+    p.s_visual_text{
+        padding-top:20px;
+    }
+    div.s_visual_textbox{
+      height:140px;
+    }
+}
+
+@media (orientation: landscape){
+    section#work_visual_land{
+        display:block;
+    }
+    ul#m_rmwk_list>li{
+        height:120px;
+    }
+    p.m_rmwk_img{
+        height:120px;
+        margin-right:20px;
+    }
+    p.m_rmwk_img>a>img{
+        height:120px;
+    }
+    p.m_rmwk_text{
+        height:120px;
+        padding-top:35px;
+    }
+    li.m_logo_img{
+      margin-left:20px;
+      margin-right:60px;
+    }
+    ul#m_interview_list{
+      margin-top:50px;
+    }
+    ul#m_semi_list{
+      margin-top:50px;
+    }
+    ul#mw_re_list{
+      margin-top:50px;
+    }
+}

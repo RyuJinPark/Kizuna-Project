@@ -1,0 +1,188 @@
+a{
+    color:black;
+    text-decoration:none;
+  }
+button{
+    border:none;
+    background:none;
+  }
+  .hidden{
+    width:1px;
+    height:1px;
+    font-size:0px;
+    line-height:0px;
+    position:absolute;
+    left:0px;
+    top:0px;
+  }
+  textarea{
+    resize:none;
+}
+div#mobile_graylayer{ /* 전체를 어둡게 해주는 div 스타일 지정 */
+  width:100%;
+  height:100%; 
+  background:black; 
+  opacity:0.8; 
+  position:fixed; 
+  left:0px; 
+  top:0px; 
+}
+/* 기본 설정 */
+
+
+header{
+    width:100%;
+    height:50px;
+    background:#c21010;
+    padding:0px 16px;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    position:relative;
+    left:0px;
+    top:0px; 
+    z-index:3;
+}
+p#menu_btn>a>i{
+  font-size:25px;
+  line-height:50px;
+  color:#fff;
+}
+h1.logo_img>a>img{
+  margin-top:5px;
+}
+p#global_btn>a>img{
+  margin-top:12px;
+}
+nav#mobilemenu{
+  width:300px; 
+  height:1000px; 
+  position:absolute; 
+  left:0px; 
+  top:0px; 
+  background:white; 
+  overflow:hidden; 
+  z-index:10; 
+}
+div#mobilemenu_inner{
+  width:100%; 
+  height:100%; 
+  position:absolute; 
+  right:0px; 
+  top:0px; 
+}
+div#mobilemenu_inner>p{
+  width:100%;
+  height:50px;
+  background:#c21010;
+}
+span#mobileclose_btn>a>img{
+  margin-bottom:10px;
+  margin-left:15px;
+}
+span.logo_img>a>img{
+  margin-top:5px;
+  margin-left:60px;
+}
+ul#mobilemenu_list{
+  width:100%;
+  height:812px;
+}
+ul#mobilemenu_list>li{
+  width:100%;
+  height:50px;
+  line-height:50px;
+  border-bottom:solid 1px #373737;
+  box-sizing:border-box;
+  position:relative;
+  left:00px;
+  top:0px;
+  overflow:hidden;
+  text-indent:36px;
+  
+}
+ul#mobilemenu_list>li>a{
+  font:bold 20px 'Lusitana'
+}
+span.mobile_icon{
+  width:36px; 
+  height:50px; 
+  text-align:center; 
+  text-indent:0px; 
+  display:block; 
+  position:absolute; 
+  right:10px; 
+  top:0px; 
+  -webkit-transition:0.4s ease;
+  
+}
+span.mobile_selected{ /* 모바일메뉴 화살표 아이콘 활성화 스타일 지정 (회전) */
+  -webkit-transform:rotate(180deg); 
+}
+ul.mobilesubmenu_list{
+  width:100%; 
+  
+}
+ul.mobilesubmenu_list>li{
+  width:100%; 
+  height:50px; 
+  padding-left:5px;
+  box-sizing:border-box;
+  background:#ededed;
+}
+ul.mobilesubmenu_list>li:hover{
+    background:#dedede;
+}
+ul.mobilesubmenu_list>li>a{
+    font:normal 14px "Lusitana";
+    line-height:50px;
+}
+
+
+/* 헤더 끝 */
+/* 하단 영역 시작 */
+footer{
+  width:100%;
+  height:150px;
+  background:#c21010;
+  padding:20px 16px;
+  box-sizing:border-box;
+}
+ul#m_clause_list{
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+ul#m_clause_list>li>a{
+  font:normal 14px 'Lusitana';
+  color:#fff;
+}
+ul#footer_list{
+  width:100%;
+  height:auto;
+}
+ul#footer_list>li{
+  width:100%;
+  height:auto;
+}
+ul#footer_list>li>a>img{
+  margin:10px auto;
+}
+ul#footer_list>li{
+  text-align:center;
+  font:normal 14px 'Lusitana';
+  color:#fff;
+}
+
+
+@media (orientation: landscape){
+    span.logo_img>a>img{
+        margin-left:180px;
+    }
+}
+    
